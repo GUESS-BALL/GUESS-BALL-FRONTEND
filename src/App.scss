@@ -1,0 +1,291 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+
+
+.accordian-div{
+
+    background-color: #ebebeb;
+}
+.accordion{
+    margin-top: 10px;
+}
+.accordian-detail{
+    text-align: left;
+}
+
+.admin-dashboard{
+    margin-top: 5px;
+}
+    
+.admin-video{    
+    width: 90%;
+    margin: auto;
+    height:600px;
+    border:2px solid black;
+}
+    
+.quiz{    
+    width: 30%; 
+    margin: auto;  
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #120e0e85;  
+    color: white;
+    border-radius: 3px;
+}
+    
+.enable-quiz,.quiz-options{    
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5px;
+}
+    
+.option{    
+    justify-content: center;
+    height: 50px;
+    width:50px;
+    margin: 8px;
+    padding: 3px;
+    border: 2px;
+    border-radius: 50%;
+}
+
+
+
+
+/******************************************** User Profile CSS **************************************************/
+
+/* *{
+    background-color: red;
+} */
+
+.fcontainer {
+    display: flex;
+    /* border: 4px solid red; */
+    width: 100%;
+    // margin-right: auto;
+    // margin-left: auto;
+    flex-direction: column;
+    flex-wrap: wrap;
+    overflow:hidden;
+    // margin-top: 5%;
+  }
+  
+  .f-topBar {
+    display: flex;
+    /* border: 5px solid greenyellow; */
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4396ebeb;
+    overflow: hidden;
+  }
+  
+  .f-topBar h2 {
+    color: white;
+    font-size: 23px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .f-bottomBar {
+    /* border: 3px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  
+  .f-bottomLeftBar {
+    display: flex;
+    flex-direction: column;
+    background-color: #d6eeffc2;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+  }
+  
+  .rounded-circleNew {
+    border-radius: 50%;
+    width: 75%;
+  }
+  
+  .leftBar-stat {
+  }
+  
+  .f-bottomRightBar {
+    display: flex;
+    /* border: 3px solid blue; */
+    width: 70%;
+    background-color: aliceblue;
+    flex-direction: column;
+    padding: 7px;
+  }
+  
+  .f-bottomRightBar h1 {
+    /* background-color:yellow; */
+    align-self: center;
+  }
+  
+  .profileContent {
+    display: flex;
+    /* border: 2px solid black; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .profileCell {
+    /* border: 2px solid green; */
+    display: flex;
+    height: fit-content;
+    flex-direction: column;
+    padding: 5px;
+    width: 45%;
+  }
+  .cellName {
+    margin: 0;
+    /* padding-left: 5px; */
+    color: #00000050;
+    margin-bottom: 10px;
+  }
+  .cellValue {
+    border: 2px solid rgb(188, 201, 243);
+    margin: 0;
+    background-color: #eefafb;
+    padding: 10px;
+    font-family: initial;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .f-radio{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  
+  .f-changeButtons{
+    display: flex;
+    /* border: 2px solid yellow; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* height: 2%; */
+  }
+  
+  .buttonCell{
+    width: 45%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    
+  }
+  
+  .editButton{
+    /* align-items: flex-end;
+    justify-items: flex-end; */
+  }
+  
+  
+  *,
+  ::after,
+  ::before {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #373640;
+  }
+  
+
+/***************************************************************************************************************/
+
+
+
+
+/************************************************Rules*******************************************************/
+// .rules-point{
+//   padding: 3px;
+//   border:2px solid;
+//   border-radius: 50%;
+//   }
+/***********************************************************************************************************/
+
+
+/***************************** Game Banner ******************************/
+.game-banner{
+  display: flex;
+  flex-direction: column;
+  height:500px;
+  width:98%;
+  background-image: url('https://resources.pulse.icc-cricket.com/ICC/teams/header/men/IND.png');
+  justify-content: center;
+/* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.game-banner-watch{
+  display: flex;
+  flex-direction: column;
+  width:50%;
+  height:50%;
+  margin: auto;
+  background-color: #00000073;
+  color: white;
+  // text-align: center;
+  justify-content: center;
+}
+
+.playerhistory1{
+  height: 100%;
+  background: url(./ground2.jpeg) no-repeat   center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a{
+  text-decoration: none !important;
+  color:inherit;
+  cursor:pointer; 
+}
